@@ -1,0 +1,22 @@
+
+.picture{ 
+    position: relative;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to right, green, blue);      
+    margin-left: 50%;      
+}
+.picture:hover{
+    background: linear-gradient(to right, blue, green);
+}
+
+.picture img{               
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    border: 5px solid red;
+    margin: -5px;            
+}
